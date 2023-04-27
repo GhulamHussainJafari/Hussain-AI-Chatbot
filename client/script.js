@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server --> bot's respone
 
-  const respone = await fetch('http://localhost:5000',{
+  const respone = await fetch('https://hussain-ai-chatbot.onrender.com',{
     method: 'POST',
     headers:{
       'Content-Type': 'application/json'
